@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+:root{
+    --primaryColor: #FF42A5;
+    --secondaryColor: #0B0223;
+    --leftRightPadding: 240px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header start */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--leftRightPadding);
+    height: 5rem;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_container img{
+    margin-right: 20px;
+}
+.logo_container p{
+    font-size: 45px;
+    font-weight: 700;
+}
+.G{
+    color: var(--primaryColor);
+}
+
+.nav a{
+    text-decoration: none;
+    color: var(--secondaryColor);
+    font-size: 18px;
+    font-weight: 500px;
+    margin-left: 32px;
+}
+.nav_follow{
+    padding: 10px 22px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.fa-youtube{
+    color: red;
+    margin-left: 10px;
+}
