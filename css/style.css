@@ -3,7 +3,10 @@
 :root{
     --primaryColor: #FF42A5;
     --secondaryColor: #0B0223;
-    --leftRightPadding: 240px;
+    --leftRightPadding: 180px;
+    --bannerChildWidth: calc(50%);
+    --paraColor: #534C64;
+
 }
 *{
     margin: 0;
@@ -11,8 +14,18 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+.btn{
+    border: none;
+    font-size: 16px;
+    padding: 12px 26px;
+    border-radius: 22px;
+    background-color: var(--primaryColor);
+    text-transform: uppercase;
+    color: #fff;
 
-/* header start */
+}
+
+/* navbar start */
 header{
     display: flex;
     align-items: center;
@@ -54,3 +67,65 @@ header{
     color: red;
     margin-left: 10px;
 }
+
+/* navbar end */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    padding-right: var(--leftRightPadding);
+}
+.goat{
+    width: 50%;
+    background-image:url("../images/Group14.png");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: 100%;
+    height: 100%;
+    padding: 110px 0;
+    padding-left: var(--leftRightPadding);
+
+}
+
+.goat > h3{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--secondaryColor);
+}
+.goat > h2{
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--secondaryColor);
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+.goat p{
+    color: var(--paraColor);
+    font-weight: 500;
+    line-height: 30px;
+
+}
+.fa-download{
+    color: tomato;
+}
+.btn_sky{
+    background-color: #4EC5F7;
+    margin-left: 10px;
+}
+.group18{
+    width: 45%;
+    height: 100%;
+    
+}
+.group18 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
