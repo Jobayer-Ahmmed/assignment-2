@@ -26,6 +26,7 @@
 .title{
     font-size: 45px;
     font-weight: 700;
+    color: var(--secondaryColor);
 }
 
 /* navbar start */
@@ -177,4 +178,65 @@ header{
     font-weight: 700;
     color: #534C64;
   }
+
+  /* gamer section end */
+  /* online_game section start */
+  .online_header{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+    height: max-content;
+  }
+  .online_header p{
+    color: #534C64;
+    margin-top: 5px;
+  }
+  .cards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0  var(--leftRightPadding);
+  }
+  .card{
+    width: 280px;
+    height: 400px;
+  }
+  .img{
+    position: relative;
+    width: 100%;
+    height: 80%;
+  }
+  .img img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(100%);
+  }
+  .img img:hover {
+    filter: brightness(60%);
+}
+.img .fa-circle-play{
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+}
+.img:hover .fa-circle-play{
+    opacity: 1;
+    visibility: visible;
+}
+.card p{
+    margin-top: 24px;
+    margin-bottom: 500px;
+}
+
+/* online_game section end */
+
+
 
