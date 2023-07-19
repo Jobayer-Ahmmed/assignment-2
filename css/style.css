@@ -337,3 +337,63 @@ header{
 }
 
 /* more_games section end */
+/* footer start */
+footer{
+    min-height: 80vh;
+    background-color: var(--secondaryColor);
+    padding: 120px 0;
+}
+.footer_logo{
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+.footer_logo p {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.links{
+    width: 50%;
+    margin: 55px auto;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.icons{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.policy{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.policy a{
+    color: rgba(255, 255, 255, 0.60);
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons .fa-brands{
+    color: #fff;
+    font-size: 30px;
+}
+#copy{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+}
