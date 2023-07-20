@@ -45,8 +45,9 @@
      /* banner end */
      /* gamer start */
      .gamer{
+      
         flex-direction: column;
-        padding: 30px 20px;
+        padding: 120px 20px;
         margin: 0;
      }
      .gamer_photo{
@@ -142,15 +143,15 @@
         width: 110px;
         position: absolute;
         bottom: -40px;
-        left: -45px;
-  
-       
+        left: -45px;       
     
     }
      /* rider end */
      /* more_games section start */
      .more_games{
         padding: 0 ;
+        padding-top: 80px;
+        padding-bottom: 80px;
      }
      .part img{
         width: 30px;
