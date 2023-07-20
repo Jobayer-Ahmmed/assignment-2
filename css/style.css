@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 
+#hide{
+    display: none;
+}
 :root{
     --primaryColor: #FF42A5;
     --secondaryColor: #0B0223;
-    --leftRightPadding: 180px;
-    --bannerChildWidth: calc(50%);
+    --leftRightPadding: 10%;
     --paraColor: #534C64;
+    --largeDevicePadding:8%;
 
 }
 *{
@@ -22,6 +25,7 @@
     background-color: var(--primaryColor);
     text-transform: uppercase;
     color: #fff;
+    cursor: pointer;
 }
 .title{
     font-size: 45px;
@@ -30,7 +34,7 @@
 }
 
 /* navbar start */
-header{
+.menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,7 +75,7 @@ header{
     margin-left: 32px;
 }
 .nav_follow{
-    padding: 10px 22px;
+    padding: 10px 16px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
@@ -86,6 +90,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 70vh;
     padding-right: var(--leftRightPadding);
 }
@@ -152,7 +157,7 @@ header{
     justify-content: space-between;
     padding: 0 var(--leftRightPadding);
     text-align: end;
-    height: 80vh;
+    min-height: 55vh;
     
   }
   .gamer_photo{
@@ -190,6 +195,9 @@ header{
 
   /* gamer section end */
   /* online_game section start */
+  .online_game{
+    padding-bottom: 120px;
+  }
   .online_header{
     width: 50%;
     margin: 0 auto;
@@ -199,7 +207,7 @@ header{
   }
   .online_header p{
     color: #534C64;
-    margin-top: 5px;
+    margin-top: 15px;
   }
   .cards{
     margin-top: 50px;
@@ -210,8 +218,8 @@ header{
     padding: 0  var(--leftRightPadding);
   }
   .card{
-    width: 280px;
-    height: 400px;
+    width: 200px;
+    height: 320px;
   }
   .img{
     position: relative;
@@ -248,7 +256,6 @@ header{
 
 /* rider section start */
 .rider{
-    
     padding: 0 var(--leftRightPadding);
     min-height: 100vh;
     padding-top: 120px;
@@ -258,6 +265,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding-bottom: 120px;
+    gap: 120px;
 }
 .player1_info{
     width: 350px;
@@ -269,15 +277,14 @@ header{
     color: #534C64;
 }
 .player1_images{
-
-    width: 500px;
+    width: 400px;
     position: relative;
 }
 .img_parent1{
-    width: 500px;
+    width: 400px;
 }
 .img_child1{
-    width: 230px;
+    width: 200px;
     position: absolute;
     left: -100px;
     bottom: -60px;
@@ -361,12 +368,12 @@ footer li{
     
 }
 .icons{
-    width: 25%;
+    width: 30%;
     margin: 0 auto;
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
     margin-bottom: 60px;
 }
 .policy{
